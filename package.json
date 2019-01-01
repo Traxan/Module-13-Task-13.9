@@ -1,0 +1,26 @@
+{
+  "name": "zad-13-9",
+  "version": "1.0.0",
+  "description": "Page to upload files / images.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Traxan/learning-git-2.git"
+  },
+  "keywords": [],
+  "author": "Tomasz Olejniczak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Traxan/learning-git-2/issues"
+  },
+  "homepage": "https://github.com/Traxan/learning-git-2#readme",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "formidable": "^1.2.0",
+    "nodemon": "^1.18.9"
+  }
+}

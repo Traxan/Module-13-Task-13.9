@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Share</title>
+</head>
+
+<body>
+  <header>
+    <div class="brand">
+      <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat-2/128/share-2-icon.png" alt="">
+    </div>
+    <h1>
+      <span>SHARE </span>- your hosting</h1>
+  </header>
+  <div class="wrapper">
+    <form action="/upload" enctype="multipart/form-data" method="post" class="form">
+      <label class="label" for="input-file">File</label>
+      <input id="input-file" class="input-file" type="file" name="upload" multiple="multiple" placeholder="files">
+      <input type="submit" value="UPLOAD" class="btn">
+    </form>
+  </div>
+</body>
+
+</html>
